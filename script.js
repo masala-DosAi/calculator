@@ -1,0 +1,63 @@
+let x;
+let y;
+x=0;
+document.getElementById("b1").onclick=function(){
+  x=1;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b2").onclick=function(){
+  x=2;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b3").onclick=function(){
+  x=3;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b4").onclick=function(){
+  x=4;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b5").onclick=function(){
+  x=5;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b6").onclick=function(){
+  x=6;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b7").onclick=function(){
+  x=7;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b8").onclick=function(){
+  x=8;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b9").onclick=function(){
+  x=9;
+  document.getElementById("display").value+=x;
+}
+document.getElementById("b0").onclick=function(){
+  x=0;
+  document.getElementById("display").value+=x;
+}
+
+document.getElementById("add").onclick=function(){
+  document.getElementById("display").value+="+";
+}
+document.getElementById("subtract").onclick=function(){
+  document.getElementById("display").value+="-";
+}
+document.getElementById("divide").onclick=function(){
+  document.getElementById("display").value+="/";
+}
+document.getElementById("multiply").onclick=function(){
+  document.getElementById("display").value+="*";
+}
+document.getElementById("equal").onclick=function(){
+  document.getElementById("display").value=eval(document.getElementById("display").value);
+}
+document.getElementById("reset").onclick=function(){
+  document.getElementById("display").value="0";
+}
+
